@@ -16,7 +16,6 @@ For a given upper limit nn the algorithm works by iteratively marking the multip
 
 <p align="center"> 
   <a href="https://github.com/JohnataDavi/binary-tree" target="_blank"><img alt="sieve-of-eratosthenes" height=300" src="https://user-images.githubusercontent.com/26368939/122655031-c7bd5000-d125-11eb-82ec-9a4eb3781087.gif"></a><br>
-  
   Algorithm steps for primes below 121.
 
 </p>
@@ -26,7 +25,7 @@ For a given upper limit nn the algorithm works by iteratively marking the multip
 ## Requirements
 </div>
 
-* C++ 14 or later
+* C++ 14/17 or later
 * OpenMp
 * Optional:
   * Linux
@@ -38,7 +37,7 @@ project(SieveEratosthenes)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp")
-add_executable(SieveEratosthenes your_file.cpp)
+add_executable(your_file.cpp)
 ```
 
 <div align="center">
