@@ -1,6 +1,6 @@
 /**
  * Algoritmo paralelo usando threads para o Crivo de Eratóstenes.
- * JOHNATA DAVI TEIXEIRA SILVA - RA:2018010459
+ * JOHNATA DAVI TEIXEIRA SILVA
  */
 #include <iostream>
 #include <thread>
